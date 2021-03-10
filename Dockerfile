@@ -5,7 +5,7 @@ EXPOSE 8888
 EXPOSE 5000
 
 #copy file to workspace
-ADD files /home/jovyan/work/
+ADD files.tar /home/jovyan/work/
 
 #install mlflow
 RUN pip install mlflow
