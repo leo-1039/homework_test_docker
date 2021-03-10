@@ -8,7 +8,7 @@
 ----
 1. 開啟終端機 cd 到 Dockerfile 所在資料夾
 cd [your path]
-docker build -t="mlflow_with_jupyter" . --no-cache
+docker build -t="mlflow_with_jupyter" .
 (看到Successfully tagged mlflow_with_jupyter:latest表示build完成)
 2. 啟動
 docker run --name mlflow_with_jupyter_container -p 8888:8888 -p 5000:5000 mlflow_with_jupyter
