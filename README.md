@@ -14,10 +14,10 @@ docker build -t="mlflow_with_jupyter" .
 docker run --name mlflow_with_jupyter_container -p 8888:8888 -p 5000:5000 mlflow_with_jupyter
 然後它會有訊息如下：
     To access the notebook, open this file in a browser:
-        file:///home/jovyan/.local/share/jupyter/runtime/nbserver-9-open.html
-    Or copy and paste one of these URLs:
-        http://642a7cb5b41b:8888/?token=fe4ff329021808fc763b3dc1467587f1576deb21c0788611
-     or http://127.0.0.1:8888/?token=fe4ff329021808fc763b3dc1467587f1576deb21c0788611
+		file:///home/jovyan/.local/share/jupyter/runtime/nbserver-9-open.html
+		Or copy and paste one of these URLs:
+		http://642a7cb5b41b:8888/?token=fe4ff329021808fc763b3dc1467587f1576deb21c0788611
+		or http://127.0.0.1:8888/?token=fe4ff329021808fc763b3dc1467587f1576deb21c0788611
 瀏覽器開啟它給的連結例如 http://127.0.0.1:8888/?token=fe4ff329021808fc763b3dc1467587f1576deb21c0788611
 就可以看到 jupyter notebook 了
 瀏覽器開啟
